@@ -15,6 +15,9 @@ import com.google.gson.Gson;
 
 @WebServlet(urlPatterns = {"/jsonResponse"})
 public class JsonResponse extends HttpServlet {
+
+	private static final long serialVersionUID = -5373671101428331839L;
+
 	@Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

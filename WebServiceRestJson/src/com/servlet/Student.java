@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Student implements Serializable {
+
+	private static final long serialVersionUID = 1644243914032084288L;
 	
 	private long id;
 	private String name;
